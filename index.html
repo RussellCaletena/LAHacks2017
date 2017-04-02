@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LA 2024 Olympics</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+<style>
+	#map {
+		height: 400px;
+		width: 100%;
+	}
+</style>
+</head>
+<body>
+	<p>
+		<a href="https://www.olympic.org/olympic-games"><img src="img/olympicLogo.jpg" id="olympicLogo"></a>
+	</p>
+	<div id="intro">
+		<h1>
+		Los Angeles 2024 Olympic Games
+		</h1>
+	</div>
+
+	<div id="navbar">
+		<nav>
+			<a href="https://www.olympic.org/olympic-games">Olympic Games</a>
+			<a href="https://www.olympic.org/sports">Sports</a>
+			<a href="https://www.olympic.org/athletes">Athletes</a>
+			<a href="https://www.olympic.org/national-olympic-committees">Countries</a>
+			<a href="https://www.olympic.org/olympic-results">Results</a>
+			<a href="https://www.olympic.org/photos">Photos</a>
+			<a href="https://www.olympic.org/videos">Videos</a>	
+			<a href="https://www.olympic.org/news">News</a>
+			<a href="https://www.olympic.org/the-ioc">About</a>
+			<a href="https://www.olympic.org/museum">Museum</a>
+			<a href="http://shop.olympic.org/en#_ga=1.9539381.1083758097.1491096365">Shop</a>
+		</nav>
+	</div>
+	<div id="laSkyline">
+		<img src="img/laSkyline.jpg" id="laSkyline">
+	</div>
+	<div id="menu">
+		<li>Date: Summer 2024</li>
+		<li>|</li>
+		<li>Country: USA - Los Angeles, CA</li>
+		<li>|</li>
+		<li>Athletes: 11237</li>
+		<li>|</li>
+		<li>Countries: 207</li>
+		<li>|</li>
+		<li>Events: 306</li>
+	</div>
+	<h3>Weather of Los Angeles</h3>
+	<a href="https://www.accuweather.com/en/us/los-angeles-ca/90012/weather-forecast/347625" class="aw-widget-legal"></a>
+	<div id="weather" class="aw-widget-current"  data-locationkey="347625" data-unit="f" data-language="en-us" data-useip="false" data-uid="awcc1491131519554">
+	</div>
+	<script type="text/javascript" src="https://oap.accuweather.com/launch.js">
+	</script>
+	<hr>
+	<h3>We Help You Find Your Way Around Town</h3>
+	<div id="map"></div>
+	<script>
+		function initMap() {
+			var uluru = {lat: 34.052235, lng: -118.243683};
+        		var map = new google.maps.Map(document.getElementById('map'), {
+         			zoom: 12,
+         			center: uluru
+       			});
+       			var marker = new google.maps.Marker({
+         			position: uluru,
+          			map: map
+        		});
+      		}
+    	</script>
+    	<script async defer
+    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDX6Nc4mSzGy4bqv4eGrO5az4vHoR24S8&callback=initMap">
+    	</script>
+	<div id="directions">
+		<a href="https://www.google.com/maps/dir//Los+Angeles,+CA/@34.0207504,-118.6919241,10z/data=!4m16!1m7!3m6!1s0x80c2c75ddc27da13:0xe22fdf6f254608f4!2sLos+Angeles,+CA!3b1!8m2!3d34.0522342!4d-118.2436849!4m7!1m0!1m5!1m1!1s0x80c2c75ddc27da13:0xe22fdf6f254608f4!2m2!1d-118.2436849!2d34.0522342">Click here for directions to LA!</a>
+	</div>
+	<hr>
+	<h3>Suggested Apps For You When Visiting LA</h3>
+	<div id="suggestedapps">
+	<p>
+		<a href="https://www.hotels.com/"><img src="img/hotelsLogo.png" id="hotelsLogo"></a>
+		<a href="https://www.lyft.com/cities/los-angeles-ca"><img src="img/lyftLogo.png" id="lyftLogo"></a>
+		<a href="https://www.uber.com/cities/los-angeles/"><img src="img/uberLogo.jpg" id="uberLogo"></a>
+		<a href="https://venmo.com/"><img src="img/venmoLogo.png" id="venmoLogo"></a>
+		<a href="https://www.waze.com/"><img src="img/wazeLogo.png" id="wazeLogo"></a>
+		<a href="https://www.yelp.com/la"><img src="img/yelpLogo.png" id="yelpLogo"></a>	
+	</p>
+	</div>	
+	<hr>
+	<h3>Our Bid for the 2024 Olympics</h3>
+	<div id="youtubevideos">
+		<iframe width="749.5" height="315" src="https://www.youtube.com/embed/OZ9HipBZcA4" frameborder="0" allowfullscreen>
+		</iframe>
+		<iframe width="749.5" height="315" src="https://www.youtube.com/embed/0UfSPUBoOlQ" frameborder="0" allowfullscreen>
+		</iframe>
+	</div>
+	<hr>
+	<h3>Check out our Social Media! #LA2024 #FollowTheSun</h3>
+		<p>
+		<a href="https://www.facebook.com/la2024/"><img src="img/facebookLogo.png" id="facebookLogo"></a>
+		<a href="https://twitter.com/LA2024"><img src="img/twitterLogo.png" id="twitterLogo"></a>
+		<a href="https://www.instagram.com/la2024/?hl=en"><img src="img/instagramLogo.png" id="instagramLogo"></a>
+		</p>
+	<hr>
+	<div id="footer">
+		<h6>© Russell Caletena 2017 </h6>
+	</div>
+</body>
+</html>
