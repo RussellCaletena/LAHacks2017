@@ -1,0 +1,189 @@
+#olympicLogo {
+	width: 400px;
+	height: 200px;
+	text-align: center;
+}
+
+#navbar {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+	background-color: black;
+	padding: 10px;
+	text-align: center;
+}
+
+#navbar a {	
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+	color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+	text-align: center;
+}
+
+#laSkyline {
+	line-height: 0;
+	vertical-align: top;
+	width: 1503px;
+}
+
+h2 {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+	text-align: center;
+	position: absolute;
+	middle: 100px;
+	text-align: center;
+	width: 100%;
+	color: black;
+}
+
+#menu {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 19px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+	background-color: black;
+	padding: 10px;
+	margin: 0px 0px;
+	text-align: center;
+	color: white;
+	display: block;
+}
+
+li {
+	display: inline;
+	padding: 10px 30px;
+}
+
+h3 {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+	text-align: center;
+	text-align: center;
+}
+	
+#directions {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+	text-align: center;	
+}
+
+#weather {	
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+	text-align: center;
+}
+
+#yelpLogo {
+	text-align: center;
+	width: 100px;
+	height: 100px;
+}
+
+#hotelsLogo{
+	text-align: center;
+	width: 100px;
+	height: 100px;
+}
+
+#uberLogo{
+	text-align: center;
+	width: 100px;
+	height: 100px;
+}
+
+#lyftLogo{
+	text-align: center;
+	width: 100px;
+	height: 100px;
+}
+
+#wazeLogo{
+	text-align: right;
+	width: 100px;
+	height: 100px;
+}
+
+#venmoLogo{
+	text-align: center;
+	width: 100px;
+	height: 100px;
+}
+
+.youtubevideos {
+	text-align: center;
+}
+	
+#suggestedapps {
+	test-align: center;
+}
+
+#twitterLogo {
+	text-align: center:
+	width: 50px;
+	height: 50px;
+}
+
+#facebookLogo {
+	text-align: center:
+	width: 50px;
+	height: 50px;
+}
+
+#instagramLogo {
+	text-align: center:
+	width: 50px;
+	height: 50px;
+}
+
+h6 {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+	text-align: center;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
